@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ln6mpxems272/api.shopncart.in/
+    - /bin/cp -R . $DEPLOYPATH

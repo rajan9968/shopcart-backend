@@ -1,5 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/a41wql7t3rts/repositories/shopcart-backend/
+    - export DEPLOYPATH=/home/a41wql7t3rts/shopcart-backend/
+    - /bin/mkdir -p $DEPLOYPATH
     - /bin/cp -R . $DEPLOYPATH
